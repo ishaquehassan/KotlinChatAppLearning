@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586862016136",
+    "firebase_url": "https://androidkotlinchatapp.firebaseio.com",
+    "project_id": "androidkotlinchatapp",
+    "storage_bucket": "androidkotlinchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586862016136:android:467005354a0f5446",
+        "android_client_info": {
+          "package_name": "com.example.ishaqhassan.androidchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586862016136-v17tv4vkb0d1gsnj2o39j8i3m10tqh4i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ishaqhassan.androidchatapp",
+            "certificate_hash": "1b6e22bd7f211001c32deb56a7ed32cff27f73fb"
+          }
+        },
+        {
+          "client_id": "586862016136-ucov8u9vb2buccqnkc8msg3q28fjf207.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7vPrDaLDuQlp8V2SkT6srkpwkUMKNiAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586862016136-ucov8u9vb2buccqnkc8msg3q28fjf207.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
