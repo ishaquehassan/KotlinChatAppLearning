@@ -45,11 +45,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun signUp(email:String,password:String){
         auth.createUserWithEmailAndPassword(email,password)
-                .addOnCompleteListener({
-                    if(it.isSuccessful){
+                .addOnCompleteListener({task ->
+                    if(task.isSuccessful){
                         gotoChat()
                     }else{
-                        Toast.makeText(this, "Error : ${it.exception?.message}", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(this, "Error : ${task.exception?.message}", Toast.LENGTH_SHORT).show();
                     }
                 })
     }
